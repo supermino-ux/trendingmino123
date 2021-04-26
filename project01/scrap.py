@@ -40,7 +40,7 @@ def my_scrap():
                 result.append(news)
                 # mongodb insert
                 # db.news.insert_one(news)
-            # print(url, title, update, img)
+            print(url, title, update, img)
     return result
 
 my_scrap()
